@@ -1,5 +1,5 @@
 //#1 Найбільша цифра числа:
-function namegetMaxDigit(number = null) {
+function getMaxDigit(number = null) {
   const arr = number.toString().split('')
   return Math.max(...arr)
 }
@@ -8,7 +8,7 @@ function namegetMaxDigit(number = null) {
 function pow(num = null, exponent = null) {
   let result = 1
   for (i = 0; i < exponent; i++) {
-     result *= num
+    result *= num
   }
   return result
 } 
@@ -25,10 +25,10 @@ function randomNumber(min, max) {
 }
  
 //#8 Генерування паролю:
-function pass(long = 8) {
+function pass() {
   let password = ''
   const number = '1234567890'
-  for (let i = 0; i < long; i++) {
+  for (let i = 0; i < 10; i++) {
     password += Math.round(Math.random() * number.length).toString()   
   }
   return password
@@ -43,9 +43,9 @@ function deleteLetters (letter, word)  {
 	return result
 }
 
-console.log("Найбільша цифра числа:", namegetMaxDigit(121))
-console.log("Число в степені:", pow(2, 3))
-console.log("Велика перша літера: ", firstBigLetter ("DSC"))
-console.log("Випадкове число з діапазону: ", randomNumber(1, 44444))
-console.log("Генерування паролю: ", pass(14))
-console.log("Видалення заданої букви з контексту: ", deleteLetters("a", "sadasdadcasa"));
+console.log("Найбільша цифра числа:", getMaxDigit(121) )
+console.log("Число в степені:", pow(2, 3) )
+console.log("Велика перша літера: ", firstBigLetter ("DSC") )
+console.log("Випадкове число з діапазону: ", randomNumber(1, 44444) )
+console.log("Генерування паролю: ", pass(14) ) 
+console.log("Видалення заданої букви з контексту: ", deleteLetters("a", "sadasdadcasa") );
