@@ -1,0 +1,22 @@
+.btn{
+  position: relative;
+  width: 55px;
+  height: 55px;
+  border: 1px solid #000;
+  margin: 15px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+span{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+        
+.btn-bord {
+  background: rgb(99, 211, 168);
+}
