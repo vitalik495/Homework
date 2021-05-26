@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Vitalik\Desktop\Алгоритмізація\8.1.2\Project1\Project1\Source.cpp(26,33): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\Vitalik\Desktop\Алгоритмізація\8.1.2\Project1\Project1\Source.cpp(32,11): warning C4018: '<': signed/unsigned mismatch
+  Project1.vcxproj -> C:\Users\Vitalik\Desktop\Алгоритмізація\8.1.2\Project1\Debug\Project1.exe
