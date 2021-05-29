@@ -1,0 +1,2 @@
+﻿Source1.obj : error LNK2005: _main already defined in Source.obj
+D:\Алгоритмізація\7.3.4\Project1\Debug\Project1.exe : fatal error LNK1169: one or more multiply defined symbols found
