@@ -1,0 +1,8 @@
+﻿  Source.cpp
+D:\Алгоритмізація\9.1.2\Project2\Project2\Source.cpp(42,9): warning C4101: 'proc': unreferenced local variable
+D:\Алгоритмізація\9.1.2\Project2\Project2\Source.cpp(174,53): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Алгоритмізація\9.1.2\Project2\Project2\Source.cpp(190,56): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Алгоритмізація\9.1.2\Project2\Project2\Source.cpp(206,59): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Алгоритмізація\9.1.2\Project2\Project2\Source.cpp(222,56): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Алгоритмізація\9.1.2\Project2\Project2\Source.cpp(238,56): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Project2.vcxproj -> D:\Алгоритмізація\9.1.2\Project2\Debug\Project2.exe
